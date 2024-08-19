@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.form-div {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: center;
+}
+
+.span-red{
+  color: red;
+}
+
+.side-header {
+  background-color: #0486aa;
+  color: white;
+  width: 59vw;
+  height: 5vh;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding: 5px 20px;
+}
+
+
+
+.side-header1 {
+  background-color: #0486aa;
+  color: white;
+  width: 59vw;
+  height: 5vh;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding: 5px 20px;
+}
+
+
+.form-total-1{
+  width: 60vw;
+  height: 20px;
+}
+
+select option{
+  padding : 4px 20px;
+}
+
+.candidate-label{
+  font-family: roboto;
+  font-size: 10.73px;
+  font-weight: 500;
+  line-height: 12.58px;
+  text-align: left;
+  color:rgb(104, 104, 104);
+}
+
+
+.sample{
+  width: 7em;
+}
+
+.group-label1{
+  font-family: Inter;
+  line-height: 24.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+
+
+}
+
+span{
+ font-size: 16px;
+ font-family: inter;
+ font-weight: 400;
+}
+
+
+.input-width-1{
+  width: 25vw;
+  color: none;
+  border-radius: 0.2em;
+  border-width: thin;
+  height: 5vh;
+  font-family: Roboto;
+  font-size: 12.7px;
+  font-weight: 400;
+  line-height: 19.04px;
+  margin-left: 1.8px;
+}
+
+.input-width-1::placeholder{
+  padding-left: 15px;
+
+}
+
+.input-width-1[type="date"]{
+  padding-left: 15px;
+}
+.input-width-2{
+  width:7em !important;
+  height: 20px;
+  text-align: start;
+  margin-top: 0.4rem;
+  border: none;
+}
+.input-width-3{
+  height: 2rem;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  border-radius: 0.2em;
+  border-width: thin;
+  line-height: 19.04px;
+  width: 10px !important;
+}
+
+.input-width-3::placeholder{
+  font-size: 14px;
+}
+
+input.input-width{
+  padding-left: 40px;
+}
+
+.input-widthoption{
+  padding: 40px;
+}
+
+.apply-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.apply-section label {
+  margin-right: 10px;
+}
+
+
+
+.post-select {
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  
+}
+
+.thin-line {
+  border-bottom: 1px solid lightgray; 
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Header CSS __________________ */
+
+.logo {
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 50px;
+    height: 10rem;
+    width: 25%; /* Each column takes up 50% of the container */
+    box-sizing: border-box; /* Include padding and border in the width */
+    border: none; /* Optional: to visualize the columns */
+  }
+  
+  .logo img {
+    height: 180px;
+    width: 180px;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+    background-color: #0486aa;
+    padding: 10px;
+    height: 100px;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 10% 0);
+    width: 75%; /* Each column takes up 50% of the container */
+    float: right;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the width */
+    border: none; /* Optional: to visualize the columns */
+  }
+  
+  .contact-item{
+    color: white;
+  }
+
+  .side-header{
+    padding-left: 10px;
+  }
+
+  .container11 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.upload11{
+    background-color: #0486aa;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding: 5px 20px;
+}
+ 
+
+/* .form-group {
+    margin: 20px 0;
+} */
+
+.group-label {
+    display: block;
+    font-family: Roboto;
+    font-size: 10.73px;
+    font-weight: 500;
+    line-height: 12.58px;
+    text-align: left;
+    
+}
+
+.input1 {
+    display: block;
+    width: 100%;
+    height: 38px;
+    margin-top: -95px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 400px;
+}
+
+input[type="file"]::file-selector-button {
+    padding: 4px 30px 4px 30px;
+    border-radius: 5px;
+    background-color: #dbdada;
+}
+
+.form-label1{
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 12.78px;
+  text-align: left;
+  height: 60px;
+  margin: 15px 0 30px;
+  margin-left: 10px
+}
+
+.declare-heading {
+    background-color: #0486aa;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.declare11 {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.form-submit {
+    display: block;
+    width: 174px;
+    height: 49px;
+    padding: 10px 25px 25px 25px;
+    background-color: #0486AA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    margin: 5px 380px;
+
+}

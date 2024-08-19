@@ -1,0 +1,23 @@
+
+.left-container {
+  width: 35%;
+  margin-left: 10%;
+}
+
+.right-container {
+  width: 35%;
+  margin-right: 20%;
+}
+
+.bottom-div {
+ height: 50%;
+}
+.input-number{
+  height: 20%;
+  border-radius: 5px;
+
+}
+/* ul{
+    text-decoration: none;
+    padding-left: 13, 
+} */

@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Loids-Logo {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 50px;
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+
+.contact-info-header {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  align-items: center;
+  background-color: #0486aa;
+  padding: 10px;
+  height: 100px;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 10% 0);
+  width: 75%; /* Each column takes up 50% of the container */
+  /* float: right; */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in the width */
+  border: none; /* Optional: to visualize the columns */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  color: #fff !important;
+}
+
+.contact-item img {
+  height: 26px;
+  width: 26px;
+  margin-right: 5px;
+}
+
+.apply-btn {
+  width: 160px;
+  background-color: #ff7f3f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 412px) {
+  .float-contains {
+    display: none;
+  }
+  /* .header {
+    display: none;
+  }
+  .collapse {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  } */
+  .mobile-navbar {
+    display: block;
+    background-color: white;
+  }
+  .container-fluid {
+    height: 20px;
+  }
+
+  .navbar-toggler {
+    margin-left: -38px;
+    border: none;
+  }
+
+  .apply-btn {
+    height: 38px;
+    width: 130px;
+    background-color: #ff7f3f;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 11px;
+    border-radius: 25px;
+    font-size: 12px;
+    margin-left: 15rem;
+  }
+  .mobile-header{
+    max-width: 412px;
+
+  }
+}

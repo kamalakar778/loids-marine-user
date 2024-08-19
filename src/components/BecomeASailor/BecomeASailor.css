@@ -1,0 +1,209 @@
+.table-1{
+    height: 600px;
+    background-color: rgb(249, 249, 250);
+
+}
+
+.sailor-bottom{
+    margin-top: 40px;
+    height: 208px;
+    background: #1F384F;
+}
+
+.example-table1{
+    height: 400px;
+    background: #1F384F;
+}
+
+.example-table2{
+    height: 242px;
+    background: #1F384F;
+}
+
+.privacy-element{
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-left: 180px;
+}
+
+.apply-button{
+    margin-left: 20px;
+    width: 120px;
+    border-radius: 20px;
+    
+}
+.apply-div{
+    display: flex;
+    margin-top: 30px;
+
+}
+.sailor-text{
+    margin-top: 70px;
+}
+.sailor-text1{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 50px;
+    color: #1F284F;
+    margin-top: -5px;
+    margin-left: 200px;
+}
+
+.sailor-text2{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 45px;
+    color: #575757;
+    height:128px;
+    width: 444px;
+}
+
+.image1{
+    height: 100px;
+    margin-top: -40px;
+
+}
+
+.image2{
+    margin-right: 680px;
+    height: 170px;
+    margin-top: 30px;
+}
+
+
+.image3{
+    position: relative;
+   
+}
+
+.image4{
+    margin-left: 250px;
+    position: relative;
+}
+
+.form-total{
+    /* height: 380px;
+    width: 450px; */
+    height: 396px;
+    width: 498px;
+    margin-left: 30px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -120px;
+}
+
+.form-div-1{
+    margin-top: 10px;
+    margin-inline: 20px;
+}
+
+.name{
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #515458;
+    margin-bottom: 8px;
+}
+
+
+.placeholder1{
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+@media screen and (max-width:412px) {
+    .table{
+        height: 380px;
+        /* background-color: rgb(249, 249, 250); */
+    
+    }
+    .sailor-text1{
+        font-family: poppins;
+        font-weight: 700;
+        font-size: 12.5px;
+        color: #1F284F;
+        margin-top: -40px;
+        margin-left: 60px;
+    }
+    .sailor-text2{
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 5.1px;
+        margin-left: 60px;
+        margin-top: -10px;
+        color: #575757;
+        height:128px;
+        width: 100px;
+    }
+    .image1{
+        display: none;
+    }
+    
+    .image2{
+        position: relative;
+        margin-right: 680px;
+        height: 46.5px;
+        width: 35px;
+        margin-top: 13px;
+    }
+    
+    .image3{
+        display: none;
+    }
+    
+    .image4{
+        margin-left: 320px;
+        height: 46.5px;
+        width: 46.5px;
+        margin-top: -470px;
+    }
+    .form-total{
+        height: 116.1px;
+        width: 144.7px;
+        margin-left: 200px;
+        border-radius: 5px;
+        align-items: center;
+        margin-top: -250px;
+        box-shadow: 2px 10px rgb(199, 6, 6);
+    }
+    .name{
+        font-size: 3px;
+        font-family: poppins;
+        font-weight: 500;
+        color: #515458;
+    }
+    .privacy-element{
+        text-align: start;
+    }    
+    .policy{
+        font-size: 4px;
+        font-family: poppins;
+        font-weight: 500;
+        margin-top: -15px;
+    }
+    
+    .placeholder1{
+        font-size: 14px;
+        font-family: poppins;
+        font-size: 3px;
+        padding: 2px 1px;
+    }
+    .sailor-bottom{
+        height: 60.5px;
+        background: #1F384F;
+        margin-top: -240px;
+    }
+    .apply-button{
+        margin-left: 10px;
+        margin-top: -50px;
+        width: 35px;
+        height: 12px;
+        border-radius: 50px;
+        font-size: 4px;
+        text-align: center;
+    }
+}

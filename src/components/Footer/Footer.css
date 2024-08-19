@@ -1,0 +1,114 @@
+.total {
+  object-fit: cover;
+}
+
+.footer-image {
+  background-color: #cccccc;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.email-container {
+  position: relative;
+}
+
+.email-icon {
+  position: absolute;
+  top: 45%;
+  left: 68%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none; /* Allow clicks through the image */
+}
+
+.email-input::placeholder {
+  color: white;
+}
+
+.hidden {
+  opacity: 0; /* Make the icon invisible */
+  pointer-events: none; /* Disable interaction */
+}
+
+.list {
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  border-bottom: 0;
+}
+
+.heading {
+    width: 120px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 20%;
+  margin-bottom: 5%;
+
+}
+
+.follow {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-right: 60px;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+  line-height: 50px;
+}
+
+.icon-row {
+  width: 237.37px;
+  height: 30px;
+  margin-left: 130px;
+}
+
+.email-input {
+  width: 15.625rem;
+  border-radius: 5px;
+  margin-left: 30.6rem;
+  font-size: 14px;
+  padding: 9px 27px;
+  text-align: center;
+}
+
+.subscribe {
+  background-color: #f97d3d;
+  height: 2.7rem;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 8px 27px;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.sailors-wave-logo {
+  height: 150px;
+  width: 300px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.services-div2 {
+  margin-right: 150px;
+}
+
+@media screen and (max-width: 412px) {
+  .total {
+    display: none;
+  }
+}

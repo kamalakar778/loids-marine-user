@@ -1,0 +1,267 @@
+.our-clients {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  .div-background {
+    background-color: #4f5c60;
+    height: 1050px;
+  }
+  .title-text {
+    font-size: 42px;
+    font-family: lato;
+    font-weight: 700;
+  }
+  
+  .feather1 {
+    margin-left: 390px;
+  }
+  
+  .feather2 {
+    margin-right: 390px;
+  }
+  
+  .pics-row {
+    justify-content: left;
+  }
+  
+  .image {
+    height: 100px;
+    width: 140px;
+    margin-right: -10px;
+  }
+  
+  .pics-row {
+    height: 130px;
+    width: 1000px;
+    margin-left: 175px;
+  }
+  
+  .helping {
+    font-size: 18px;
+  }
+  
+  #rating {
+    font-size: 31px;
+    font-family: inter;
+    font-weight: 600;
+    margin-top: 65px;
+  }
+  
+  .stars {
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+    margin-left: 190px;
+    margin-top: -40px;
+  }
+  
+  .card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .scaling:hover {
+    transform: scale(1.2);
+  }
+  
+  .card-body-1 {
+    height: 345px;
+    width: 295px;
+    margin-left: 265px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .card-body3 {
+    height: 345px;
+    width: 295px;
+    margin-right: 215px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .card-body2 {
+    height: 345px;
+    width: 295px;
+    margin-left: 35px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .card-image {
+    margin: 10px;
+    margin-top: 35px;
+  }
+  
+  .card-title1 {
+    font-family: lato;
+    font-weight: 700;
+    font-size: 19px;
+    margin-left: 90px;
+    margin-top: -70px;
+  }
+  
+  .card-subtitle {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 13.5px;
+    margin-left: 90px;
+    margin-top: -10px;
+  }
+  
+  .card-text-1 {
+    font-size: 12.1px;
+    text-align: center;
+    width: 275px;
+    margin-left: 6.5px;
+  }
+  
+  .experience {
+    text-align: center;
+    font-family: lato;
+    font-weight: 700;
+  }
+  
+  .designation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Media Queries --------------------------------------------------------- */
+  
+  @media screen and (max-width: 412px) {
+    .title-text-1 {
+      font-size: 12px;
+      margin-top: -55px;
+      font-family: lato;
+      font-weight: 700;
+    }
+    .div-background {
+      background-color: #4f5c60;
+      height: 360px;
+      margin-top: -35px;
+    }
+  
+    .feather1 {
+      margin-left: -8rem;
+      height: 6rem;
+      margin-top: -20px;
+    }
+    .feather2 {
+      height: 6rem;
+      padding: 0;
+      margin: 0;
+      margin-top: -122px;
+      margin-left: 130px;
+    }
+    #rating {
+      font-size: 10px;
+      margin-bottom: 1px;
+      margin-top: -60px;
+    }
+  
+    .star-mobile {
+      height: 0.7rem;
+    }
+  
+    .star-mobile-1 {
+      height: 0.4rem;
+      margin-top: 20px;
+    }
+  
+    .helping {
+      font-size: 8px;
+      margin-top: -35px;
+    }
+  
+    .starImages-container{
+      margin-left: 83px;
+    }
+  
+    .card-image {
+      display: flex;
+      padding-top: 4px;
+      height: 2rem;
+      margin: 2px;
+      margin-top: 8px;
+    }
+  
+    .pics-row {
+      height: 3rem;
+      width: 25rem;
+      justify-content: center;
+      margin-left: 2px;
+      margin-top: -20px;
+    }
+  
+    .card-row {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .scaling:hover {
+      transform: scale(1.2);
+    }
+    .card-body-1 {
+      height: 7.5rem;
+      width: 7.5rem;
+      margin-left: 10px;
+      margin-top: 1px;
+      border-radius: 5px;
+    }
+  
+    .card-body2 {
+      height: 7.5rem;
+      width: 7.5rem;
+      margin-left: -25px;
+      margin-top: 1px;
+      border-radius: 5px;
+    }
+  
+    .card-body3 {
+      height: 7.5rem;
+      width: 7.5rem;
+      margin-right: 19px;
+      margin-top: 1px;
+      border-radius: 5px;
+    }
+  
+    .card-title1 {
+      font-family: lato;
+      font-weight: 700;
+      font-size: 8px;
+      margin-top: -30px;
+      margin-left: 35px;
+    }
+  
+    .card-subtitle {
+      font-family: lato;
+      font-weight: 400;
+      font-size: 6px;
+      margin-left: 35px;
+    }
+  
+    .experience {
+      text-align: center;
+      font-family: lato;
+      font-weight: 700;
+      font-size: 6px;
+      padding: 0.2rem;
+    }
+  
+    .card-text-1 {
+      font-size: 5px;
+      text-align: start;
+      width: 7rem;
+      height: 4rem;
+      line-height: 8px;
+      margin-top: -15px;
+      margin-bottom: 3px;
+    }
+  }
+  
